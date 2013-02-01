@@ -1,0 +1,4 @@
+﻿Test.Unit.Fixtures.MessWithWords
+First Word	Second Word	Append?	Count Characters?
+Alpha	Getty	AlphaGetty	10
+Golden	Nuggets	GoldenNuggets	13

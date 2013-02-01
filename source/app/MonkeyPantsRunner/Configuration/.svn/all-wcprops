@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/174/trunk/source/app/MonkeyPantsRunner/Configuration
+END
+ProjectConfiguration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/174/trunk/source/app/MonkeyPantsRunner/Configuration/ProjectConfiguration.cs
+END
+ChannelConfiguration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/174/trunk/source/app/MonkeyPantsRunner/Configuration/ChannelConfiguration.cs
+END
+ProjectConfigurationXmlReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/174/trunk/source/app/MonkeyPantsRunner/Configuration/ProjectConfigurationXmlReader.cs
+END
+InputConfiguration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/174/trunk/source/app/MonkeyPantsRunner/Configuration/InputConfiguration.cs
+END
+OutputConfiguration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/174/trunk/source/app/MonkeyPantsRunner/Configuration/OutputConfiguration.cs
+END

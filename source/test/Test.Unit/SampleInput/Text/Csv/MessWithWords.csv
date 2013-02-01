@@ -1,0 +1,6 @@
+﻿Test.Unit.SampleFixtures.MessWithWords
+First Word,Second Word,Append?,Character Count?
+Alpha,Getty,AlphaGetty,10
+Golden,Nuggets,GoldenNuggets,13
+,,,0
+IOU, Nothing,IOU Nothing,11

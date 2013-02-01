@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/177/trunk/source/app/MonkeyPantsRunner/Output
+END
+SimpleTextResultsWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/177/trunk/source/app/MonkeyPantsRunner/Output/SimpleTextResultsWriter.cs
+END
+HtmlFileResultsWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/161/trunk/source/app/MonkeyPantsRunner/Output/HtmlFileResultsWriter.cs
+END
+MulticastResultsWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/161/trunk/source/app/MonkeyPantsRunner/Output/MulticastResultsWriter.cs
+END
+IResultsWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/142/trunk/source/app/MonkeyPantsRunner/Output/IResultsWriter.cs
+END

@@ -1,0 +1,29 @@
+﻿<monkey_pants_config version="0.0">
+  <fixtures>
+    <assemblies root="..\">
+      <assembly>Test.Unit.dll</assembly>
+    </assemblies>
+  </fixtures>
+  <input>
+    <match file="*.xml">
+      <reader class="MonkeyPants.Reading.Excel2003XmlReader" assembly="MonkeyPants.exe"/>
+    </match>
+    <match file="*.csv">
+      <reader class="MonkeyPants.Reading.CsvTextFileReader" assembly="MonkeyPants.exe"/>
+    </match>
+    <match file="*.txt">
+      <reader class="MonkeyPants.Reading.TabbedTextFileReader" assembly="MonkeyPants.exe"/>
+    </match>
+  </input>
+  <output>
+    <writer class="MonkeyPants.Output.SimpleTextResultsWriter" assembly="MonkeyPants.exe">
+      <channel type="file" file="MonkeyPantsResults.txt"/>
+    </writer>
+    <writer class="MonkeyPants.Output.SimpleTextResultsWriter" assembly="MonkeyPants.exe">
+      <channel type="console"/>
+    </writer>
+    <writer class="MonkeyPants.Output.HtmlFileResultsWriter" assembly="MonkeyPants.exe">
+      <channel type="file" file="MonkeyPantsResults.html"/>
+    </writer>
+  </output>
+</monkey_pants_config>

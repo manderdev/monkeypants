@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/169/trunk/source/test/Test.Unit/Reading
+END
+CsvTextFileReaderTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/151/trunk/source/test/Test.Unit/Reading/CsvTextFileReaderTest.cs
+END
+DelimitedTextReaderTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/169/trunk/source/test/Test.Unit/Reading/DelimitedTextReaderTest.cs
+END
+Excel2003XmlReaderTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/106/trunk/source/test/Test.Unit/Reading/Excel2003XmlReaderTest.cs
+END
+TabbedTextFileReaderTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/93/trunk/source/test/Test.Unit/Reading/TabbedTextFileReaderTest.cs
+END
+RawTestTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/93/trunk/source/test/Test.Unit/Reading/RawTestTest.cs
+END

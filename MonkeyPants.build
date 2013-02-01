@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<project name="MonkeyPants" default="all">
+    
+  <!-- *** INCLUDES *** -->
+  
+  <include buildfile="buildfiles\Properties.build" />
+  <include buildfile="buildfiles\Compile.build" />
+  <include buildfile="buildfiles\Test.build" />
+  <include buildfile="buildfiles\Install.build" />
+
+
+  <!-- *** TARGETS *** -->
+
+  <target name="all" depends="clean, compile, test"/>
+
+  <target name="full" depends="all, uninstall, install, test.install"/>
+
+</project>
+

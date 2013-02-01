@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/167/trunk/buildfiles
+END
+Install.build
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/167/trunk/buildfiles/Install.build
+END
+Compile.build
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/128/trunk/buildfiles/Compile.build
+END
+Properties.build
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/167/trunk/buildfiles/Properties.build
+END
+Test.build
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/155/trunk/buildfiles/Test.build
+END

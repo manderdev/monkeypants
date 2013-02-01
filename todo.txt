@@ -1,0 +1,85 @@
+- There are no suite tests. Suites don't get the right parameters yet (broken).
+- Need some args() tests and args() handling on the fixture construction instruction.
+- incorporate a config file, somewhere up the hierarchy from where the tests reside
+- Make assemblies a real thing (using input from the config file)
+- Remove the need to specify fixtures as (eg) A.B.C.DoSomething; should be able to say just Do Something
+- create a "starter" pgm (you right-click on a file/folder & "test...") finds the config, which sez where the pgm etc live and runs it
+- more front-ends: the old fit excel f/e reworked, new xlsx f/e, ...
+- more back-ends: need to gen html (via xml/xslt?)
+- represent null cell i/o as NULL? Config setting
+- omg a complete rework of the cellresults is needed to handle matching each output row to an appropriate (not necessarily the current) expected row, regardless of output sort order.
+- should input (action) tests start with a new fixture each input row? Currently just instantiating the fixture once.
+- TestFactory handles multiple actions in one input row if they all have the same (or no) parameter. should it support actions with different/no parameter?
+- "Test.Unit" does all tests (should be a "Test.Integration")
+- tests calling scenarios, eg here's a bunch of scenarios that each use another scenario to initialize the db. How to do?
+
+
+Discussion: Tests Calling Scenarios
+===================================
+So I'm thinking there should be a "function call" capability, which would 
+
+- identify a scenario, 
+- give it some parameter values,
+- call it 
+- let it do whatever the hell it wants
+- collect and merge the output
+- come back and continue with the original scenario
+
+
+Thoughts:
+1) No side-effects. Disparate user caches.
+
+Maybe it would look like the following:
+
+    ... Whatever preliminary tests ...
+    
+    !Use Out of Balance Account
+    Account     Trade Date
+    AMOC        20100627
+    IBM         20100519
+    
+    ... other tests and/or scenario calls...
+
+The ! means "go find a scenario file whose name.IgnoreCase.Equals(UseOutofBalanceAccount.*).
+Suffix is ignored for the search. "!" I'm not in love with, but should be something simple.
+the "Account" and "Trade Date" would be parameters to the "Confirm Account Balance" scenario. Soooo...
+The above would
+1.  Create a new user cache
+2.  For each data row
+2.1 load it: userCache["Account"] = "AMOC", and userCache["Trade Date"] = "20100627"
+2.2 run the "Use Out of Balance Account" scenario, giving it the loaded cache
+
+the scenario could look like (in its simplest form)
+
+    UnbalanceAccountFixture
+    Account     Date
+    Account=>   Trade Date=>
+
+"Account=>" means 'the expected value is in userCache["Account"]'. Something the current MonkeyPants doesn't do
+(supplying input cell data from the cache).
+Implication: the "Use Out of Balance Account" scenario would not work on its own. It's a subroutine expecting parameters.
+How to avoid running it if it's part of the suite? Maybe subroutine scenarios are actually called like above:
+eg !ConfirmAccountBalance.csv (exclamation in the name = subroutine). At least this would alpha sort them altogether...
+
+Another option is
+
+    UnbalanceAccountFixture Account=>   Trade Date=>
+
+ie using the args as (order-dependent) inputs to the fixture (again, doesn't do inputs to args yet). Don't like this form.
+
+A third option is, from the calling scenario,
+
+    !Use AMOC Out of Balance Account
+
+ie a zero-parameter call to the "Use AMOC Out of Balance Account" scenario. Easiest and least confusing.
+
+Problem with all of these: what (if anything) are the expected/actual values? Is there a return?
+
+Oh, and nothing stopping a subroutine from calling a subroutine.
+
+Devil's advocate: questionable whether we should be supporting subroutine calls at all. Leads to repetition, like
+plagues TC.
+
+
+===========
+XSL for html output, e.g. to highlight significant events (different events being significant to different folk, see)

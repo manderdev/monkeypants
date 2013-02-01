@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/52/trunk/source/test/Test.Unit/SampleInput/Text/Csv
+END
+SearchPeopleWithActionParameter.csv
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/49/trunk/source/test/Test.Unit/SampleInput/Text/Csv/SearchPeopleWithActionParameter.csv
+END
+SearchPeopleAndNotEnoughResults.csv
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/52/trunk/source/test/Test.Unit/SampleInput/Text/Csv/SearchPeopleAndNotEnoughResults.csv
+END
+SearchPeopleNoActionParameter.csv
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/52/trunk/source/test/Test.Unit/SampleInput/Text/Csv/SearchPeopleNoActionParameter.csv
+END
+SearchPeopleAndTooManyResults.csv
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/52/trunk/source/test/Test.Unit/SampleInput/Text/Csv/SearchPeopleAndTooManyResults.csv
+END
+MathematicsWithFailures.csv
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/49/trunk/source/test/Test.Unit/SampleInput/Text/Csv/MathematicsWithFailures.csv
+END
+SearchResults.csv
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/40/trunk/source/test/Test.Unit/SampleInput/Text/Csv/SearchResults.csv
+END
+MathematicsWithErrors.csv
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/49/trunk/source/test/Test.Unit/SampleInput/Text/Csv/MathematicsWithErrors.csv
+END
+SearchPeopleNoActionParameterAndResults.csv
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/52/trunk/source/test/Test.Unit/SampleInput/Text/Csv/SearchPeopleNoActionParameterAndResults.csv
+END
+SearchPeopleAndNoResults.csv
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/52/trunk/source/test/Test.Unit/SampleInput/Text/Csv/SearchPeopleAndNoResults.csv
+END
+SearchPeopleAndResults.csv
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/52/trunk/source/test/Test.Unit/SampleInput/Text/Csv/SearchPeopleAndResults.csv
+END
+Mathematics.csv
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/49/trunk/source/test/Test.Unit/SampleInput/Text/Csv/Mathematics.csv
+END
+MessWithWords.csv
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/49/trunk/source/test/Test.Unit/SampleInput/Text/Csv/MessWithWords.csv
+END
+MathematicsMessyButGood.csv
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/49/trunk/source/test/Test.Unit/SampleInput/Text/Csv/MathematicsMessyButGood.csv
+END

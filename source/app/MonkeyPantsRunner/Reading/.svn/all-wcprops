@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/173/trunk/source/app/MonkeyPantsRunner/Reading
+END
+ITestFileReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/126/trunk/source/app/MonkeyPantsRunner/Reading/ITestFileReader.cs
+END
+CsvTextFileReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/151/trunk/source/app/MonkeyPantsRunner/Reading/CsvTextFileReader.cs
+END
+XmlReaderAdapter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/169/trunk/source/app/MonkeyPantsRunner/Reading/XmlReaderAdapter.cs
+END
+TextFileReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/151/trunk/source/app/MonkeyPantsRunner/Reading/TextFileReader.cs
+END
+DelimitedTextReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/151/trunk/source/app/MonkeyPantsRunner/Reading/DelimitedTextReader.cs
+END
+Excel2003XmlReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/173/trunk/source/app/MonkeyPantsRunner/Reading/Excel2003XmlReader.cs
+END
+TabbedTextFileReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/151/trunk/source/app/MonkeyPantsRunner/Reading/TabbedTextFileReader.cs
+END
+RawTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/169/trunk/source/app/MonkeyPantsRunner/Reading/RawTest.cs
+END

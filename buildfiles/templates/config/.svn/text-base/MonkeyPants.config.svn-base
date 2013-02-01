@@ -1,0 +1,18 @@
+﻿<monkey_pants_config version="0.0">
+  <fixtures>
+    <assemblies>
+      <assembly>..\Test.Unit\bin\Debug\Test.Unit.dll</assembly>
+    </assemblies>
+  </fixtures>
+  <output>
+    <writer class="MonkeyPants.Output.SimpleTextResultsWriter" assembly="..\MonkeyPants.exe">
+      <channel type="file" file="MonkeyPantsResults.txt"/>
+    </writer>
+    <writer class="MonkeyPants.Output.SimpleTextResultsWriter" assembly="..\MonkeyPants.exe">
+      <channel type="console"/>
+    </writer>
+    <writer class="MonkeyPants.Output.HtmlFileResultsWriter" assembly="..\MonkeyPants.exe">
+      <channel type="file" file="MonkeyPantsResults.html"/>
+    </writer>
+  </output>
+</monkey_pants_config>

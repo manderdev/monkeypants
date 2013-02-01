@@ -1,0 +1,7 @@
+﻿Test.Unit.SampleFixtures.SearchPeopleNoActionParameter
+First Name,Last Name,Search?
+Buzz,Lightyear,=>People Results
+
+People Results=>
+First Name,Middle Name,Last Name
+Buzz,Albert,Lightyear

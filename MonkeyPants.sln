@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Unit", "source\test\Test.Unit\Test.Unit.csproj", "{31A2F04B-01D7-41EF-B4C9-786F8F294D95}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C2A54B2-3834-4FD3-A1A7-3E13702782EB} = {0C2A54B2-3834-4FD3-A1A7-3E13702782EB}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{279D7EB5-0FA4-4837-83B7-4D18A1DBFA14}"
+	ProjectSection(SolutionItems) = preProject
+		todo.txt = todo.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyPantsRunner", "source\app\MonkeyPantsRunner\MonkeyPantsRunner.csproj", "{0C2A54B2-3834-4FD3-A1A7-3E13702782EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buildfiles", "Buildfiles", "{79AB5DFB-BCE8-4A7B-886E-0580A1DD00AC}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		buildfiles\Compile.build = buildfiles\Compile.build
+		buildfiles\Install.build = buildfiles\Install.build
+		MonkeyPants.build = MonkeyPants.build
+		buildfiles\Properties.build = buildfiles\Properties.build
+		buildfiles\Test.build = buildfiles\Test.build
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{435C2A1D-1B78-4B44-8075-B44B81DEF7B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{FC3C705C-9248-4F69-B365-8F69CF25DE86}"
+	ProjectSection(SolutionItems) = preProject
+		buildfiles\templates\config\MonkeyPants.config = buildfiles\templates\config\MonkeyPants.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Registry", "Registry", "{9B0D0529-C960-4CA0-AFCD-9BC5D091F83D}"
+	ProjectSection(SolutionItems) = preProject
+		buildfiles\templates\registry\ADD - Run As MonkeyPants Suite.reg.template = buildfiles\templates\registry\ADD - Run As MonkeyPants Suite.reg.template
+		buildfiles\templates\registry\ADD - Run As MonkeyPants Test.reg.template = buildfiles\templates\registry\ADD - Run As MonkeyPants Test.reg.template
+		buildfiles\templates\registry\REMOVE - Run As MonkeyPants Suite.reg.template = buildfiles\templates\registry\REMOVE - Run As MonkeyPants Suite.reg.template
+		buildfiles\templates\registry\REMOVE - Run As MonkeyPants Test.reg.template = buildfiles\templates\registry\REMOVE - Run As MonkeyPants Test.reg.template
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyPantsExtensions", "source\app\MonkeyPantsExtensions\MonkeyPantsExtensions.csproj", "{8594A553-D6B1-42AD-B33B-AA20020C1C0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31A2F04B-01D7-41EF-B4C9-786F8F294D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A2F04B-01D7-41EF-B4C9-786F8F294D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A2F04B-01D7-41EF-B4C9-786F8F294D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A2F04B-01D7-41EF-B4C9-786F8F294D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2A54B2-3834-4FD3-A1A7-3E13702782EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2A54B2-3834-4FD3-A1A7-3E13702782EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2A54B2-3834-4FD3-A1A7-3E13702782EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2A54B2-3834-4FD3-A1A7-3E13702782EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8594A553-D6B1-42AD-B33B-AA20020C1C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8594A553-D6B1-42AD-B33B-AA20020C1C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8594A553-D6B1-42AD-B33B-AA20020C1C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8594A553-D6B1-42AD-B33B-AA20020C1C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{435C2A1D-1B78-4B44-8075-B44B81DEF7B1} = {79AB5DFB-BCE8-4A7B-886E-0580A1DD00AC}
+		{FC3C705C-9248-4F69-B365-8F69CF25DE86} = {435C2A1D-1B78-4B44-8075-B44B81DEF7B1}
+		{9B0D0529-C960-4CA0-AFCD-9BC5D091F83D} = {435C2A1D-1B78-4B44-8075-B44B81DEF7B1}
+	EndGlobalSection
+EndGlobal
