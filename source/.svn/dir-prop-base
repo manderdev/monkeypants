@@ -1,9 +1,0 @@
-K 10
-svn:ignore
-V 48
-_ReSharper.NAcceptance
-*.user
-*.suo
-*.resharper
-
-END
